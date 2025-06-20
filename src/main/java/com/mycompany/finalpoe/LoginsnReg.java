@@ -8,6 +8,7 @@ public class LoginsnReg {
     public String username, password, cellPhoneNumber;
     
     public void startLoginProcess(int loginOptions) {
+       //We need to connect message class from here
         Message message = new Message();
         boolean isContinue = true;
         
